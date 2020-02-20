@@ -1,0 +1,21 @@
+@import "./styles-card.css";
+@import "./style-player.css";
+@import "./style-trump.css";
+
+.fr { float: right; }
+.fl { float: left; }
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+
+.deck {
+   padding: 5px;
+   margin: 5px;
+}
+
+.hidden {
+   visibility: hidden;
+}

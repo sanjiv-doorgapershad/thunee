@@ -1,0 +1,33 @@
+{
+  "name": "thunee",
+  "version": "1.0.0",
+  "description": "network multiplayer thunnee game",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon ./src/index.js --exec babel-node --e js",
+    "test": "node_modules/.bin/karma start karma.conf.js",
+    "uml-client": "wavi src/client thunee-client.svg",
+    "uml-server": "wavi src/server thunee-server.svg"
+  },
+  "author": "Sanjiv Doorgapershad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "jasmine-core": "^3.5.0",
+    "jsdoc": "^3.6.3",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage-istanbul-reporter": "^2.1.1",
+    "karma-jasmine": "^3.1.0",
+    "karma-jasmine-html-reporter": "^1.5.1",
+    "karma-webpack": "^4.0.2",
+    "webpack": "^4.41.5"
+  }
+}

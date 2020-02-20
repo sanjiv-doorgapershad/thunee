@@ -1,0 +1,14 @@
+.trump-container {
+   /* position: relative; */
+   float: right;
+   border: dotted medium #fff;
+   min-height: 100px;
+   min-width: 80px;
+   padding: 0px 5px 0px 0px;
+}
+
+.trump-container .holder{
+   min-height: 60px;
+   min-width: 60px;
+   /* position: absolute; */
+}
